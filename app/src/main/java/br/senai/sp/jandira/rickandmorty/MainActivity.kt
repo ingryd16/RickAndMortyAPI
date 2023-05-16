@@ -141,12 +141,7 @@ fun Greeting(name: String) {
                             Text (
                                 text = it.location.name,
                                 fontSize = 18.sp,
-                                color = Color.Blue,
-                            )
-                            Text (
-                                text = it.location.url,
-                                fontSize = 18.sp,
-                                color = Color.Blue,
+                                color = Color.Black,
                             )
                         }
                     }
